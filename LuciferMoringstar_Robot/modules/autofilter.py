@@ -32,7 +32,8 @@ async def group_filters(client, message):
                  InlineKeyboardButton("IMDB 🔎", url=f"https://www.imdb.com/find?q={reply}")
                  ],[
                  InlineKeyboardButton ("🗑 CLOSE 🗑", callback_data="close")
-                )    
+                 ]]
+                ) 
                 LuciferMoringstar_delete=await message.reply_text(
                     text=SET_SPEL_M.format(query=search, mention=message.from_user.mention),
                     reply_markup=reply_markup                 
