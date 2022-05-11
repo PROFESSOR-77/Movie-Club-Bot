@@ -45,9 +45,9 @@ class LuciferMoringstar(object):
 🎬 **Title** : [{title}]({url})
 📆 **Year** : {year}
 🌟 **Rating** {rating}/10
-🎭 **Genres** {genres}"""
+🎭 **Genres** {genres}
 
- © **{chat}**
+ © **{chat}**"""
 
     GET_MOVIE_2 = """
 ↪️ **Requested Movie** : {query}
