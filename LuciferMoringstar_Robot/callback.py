@@ -221,7 +221,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                         file_id=file_id,
                         caption=caption
                         )
-                    await query.answer('Check PM, I have Sent Files In Pm 📩',show_alert = True)
+                    await query.answer('Check Bot PM, I have Sent Your Files In PM 📩',show_alert = True)
             except UserIsBlocked:
                 await query.answer('Unblock the bot mahn !',show_alert = True)
             except PeerIdInvalid:
@@ -347,7 +347,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
             await msg.edit(
                 "Starting Indexing",
                 reply_markup=InlineKeyboardMarkup(
-                  [[InlineKeyboardButton('❌ Cancel', callback_data='index_cancel')]]
+                  [[InlineKeyboardButton('✗ Cancel', callback_data='index_cancel')]]
                   )
             )
             try:
