@@ -2,7 +2,7 @@ class LuciferMoringstar(object):
 
     DEFAULT_MSG = """👋Hello {mention}.....!!!\nIt's Power Full [{bot_name}](t.me/{bot_username}) Here 😎\nAdd Me To Your Group And Make Sure I'm an Admin There! \nAnd Enjoy My Pever Show.....!!!🤪"""
 
-    HELP_MSG = """**Help Veno Monuse 🤣**"""
+    HELP_MSG = """**This help button contains only admin commands so only group admin can see help commands.**"""
 
     ABOUT_MSG = """
 🤖 My Name : [{bot_name}](t.me/{bot_username})
@@ -11,13 +11,13 @@ class LuciferMoringstar(object):
 
 🧑‍💻 My Creator : {dev_name}
 
-🛠️ My Library : [Pyrogram]
+🛠️ My Library : Pyrogram
 
-㊗️ My Language : [Python3]
+㊗️ My Language : Python3
 
-🗄️ My Database : [Mongodb]
+🗄️ My Database : Mongodb
 
-📡 My Server : [Heroku]"""
+📡 My Server : Heroku"""
 
     FILE_CAPTIONS = """Hello 👋 {mention}\n\n📁Title {title}\n\n🔘Size {size}"""
 
@@ -37,17 +37,14 @@ class LuciferMoringstar(object):
 
 **Couldn't Find {query}?  Please Click Your Request Movie Name**"""
     GET_MOVIE_1 = """
-**Hello 👋{mention}
-
+**Hello 👋{mention}**,
 
 ↪️ **Requested Movie** : [{query}]({url})
 👤 **Requested By** : {mention}
 🎬 **Title** : [{title}]({url})
 📆 **Year** : {year}
 🌟 **Rating** {rating}/10
-🎭 **Genres** {genres}
-
- © **{chat}**"""
+🎭 **Genres** {genres}"""
 
     GET_MOVIE_2 = """
 ↪️ **Requested Movie** : {query}
