@@ -30,9 +30,9 @@ async def delete(bot, message):
         'mime_type': media.mime_type
     })
     if result.deleted_count:
-        await msg.edit('File Is Successfully Deleted From Database')
+        await msg.edit('File Is Successfully Deleted From Database ✔')
     else:
-        await msg.edit('File Not Found In Database')
+        await msg.edit('File Not Found In Database ✗')
 
 
 @LuciferMoringstar_Robot.on_message(Worker.command('deleteall') & Worker.user(ADMINS))
@@ -40,8 +40,8 @@ async def delete_all_index(bot, message):
     await message.reply_text(
         text="This will delete all indexed files.\nDo you want to continue??",
         reply_markup=InlineKeyboardMarkup([[
-           InlineKeyboardButton("Yes", callback_data="autofilter_delete"),
-           InlineKeyboardButton("No", callback_data="close")   
+           InlineKeyboardButton("✔ Yes", callback_data="autofilter_delete"),
+           InlineKeyboardButton("No ✗", callback_data="close")   
            ]]
         )
     )
@@ -49,6 +49,6 @@ async def delete_all_index(bot, message):
 @LuciferMoringstar_Robot.on_callback_query(Worker.regex(r'^autofilter_delete'))
 async def delete_all_index_confirm(bot, message):
     await Media.collection.drop()
-    await message.message.edit('Succesfully Deleted All The Indexed Files.')
+    await message.message.edit('Succesfully Deleted All The Indexed Files ✔')
 
 
