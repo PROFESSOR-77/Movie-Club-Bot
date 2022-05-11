@@ -11,7 +11,7 @@ async def delete(bot, message):
 
     reply = message.reply_to_message
     if reply and reply.media:
-        msg = await message.reply("Processing...⏳", quote=True)
+        msg = await message.reply("Checking...⏳", quote=True)
     else:
         await message.reply('Reply To File With /delete Which You Want To Delete', quote=True)
         return
