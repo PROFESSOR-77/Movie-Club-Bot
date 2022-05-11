@@ -63,7 +63,7 @@ class LuciferMoringstar(object):
 📆 **Year** : {year}
 🌟 **Rating** {rating}/10
 🎭 **Genres** {genres}
-📤 Uploaded To: Movie Time Server
+📤 Uploaded To : Movie Time Server
 🧑‍🔧 Get Support ✔️ DarkLord
 
 📌 Press The Down Buttons To Access The File
