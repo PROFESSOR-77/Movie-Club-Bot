@@ -151,7 +151,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                 )
                 buttons.append(
                     [InlineKeyboardButton(f"{int(index)+2}/{data['total']}", callback_data="pages"),
-                     InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                     InlineKeyboardButton("🗑️", callback_data="close")]
                 )
 
                 await query.edit_message_reply_markup( 
