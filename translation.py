@@ -74,10 +74,6 @@ class LuciferMoringstar(object):
 
 ↪️ **Requested Movie** : {query}
 👤 **Requested By** : {mention}
-🎬 **Title** : [{title}]({url})
-📆 **Year** : {year}
-🌟 **Rating** {rating}/10
-🎭 **Genres** {genres}
 📤 Uploaded To : Movie Time Server
 🧑‍🔧 Get Support ✔️ DarkLord
 
