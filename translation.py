@@ -83,5 +83,3 @@ class LuciferMoringstar(object):
 
 📌 Press The Down Buttons To Access The File
 📌 This Post Will Be Deleted After 10 Minutes"""
-
-© **{chat}**"""
