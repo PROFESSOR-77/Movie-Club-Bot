@@ -16,20 +16,16 @@ async def start_message(bot, message):
              ],[
              InlineKeyboardButton("ℹ️ Help", callback_data="help"),
              InlineKeyboardButton("😎 About", callback_data="about") 
-             ],[
-             InlineKeyboardButton("🎭 Who Am I", callback_data="who")
+             ]]
         else:
             buttons = [[
              InlineKeyboardButton("🔗 Movie Time", url=f"https://t.me/+4kz4z9zCyLdjZjI1")
              ],[
              InlineKeyboardButton("ℹ️ Help", callback_data="bot_owner"),
              InlineKeyboardButton("😎 About", callback_data="about") 
-             ],[
-             InlinekeyboardButton("🎭 Who Am I", callback_data="who")
              ]]
         await message.reply_photo(photo = random.choice(BOT_PICS), caption=START_MSG.format(mention = message.from_user.mention, bot_name = bot_info.BOT_NAME, bot_username = bot_info.BOT_USERNAME), reply_markup=InlineKeyboardMarkup(buttons))
-        await message.reply_photo(photo = random.choice(BOT_PICS), caption=WHO_AM_I_MSG.format(mention =message.from_user.mention, reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
-    elif len(message.command) ==2 and message.command[1] in ["subscribe"]:
+         elif len(message.command) ==2 and message.command[1] in ["subscribe"]:
         FORCES=["https://telegra.ph/file/dc07517edd588aad50b36.jpg"]
         invite_link = await bot.create_chat_invite_link(int(FORCES_SUB))
         button=[[
