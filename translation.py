@@ -4,7 +4,7 @@ class LuciferMoringstar(object):
     
     HELP_MSG = """**This help button contains only admin commands so only group admin can see help commands.**"""
 
-    ABOUT_MSG = """
+    DARKLORD_77 = """
 🤖 My Name : [{bot_name}](t.me/{bot_username})
 
 🤴 My Dev : [DarkLord](t.me/hellodarklord)
