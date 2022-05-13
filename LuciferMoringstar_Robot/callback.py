@@ -302,8 +302,11 @@ async def cb_handler(client: lucifermoringstar_robot, query):
              InlineKeyboardButton("🏠 Home", callback_data="about"),       
              InlineKeyboardButton("Close 🗑️", callback_data="close")
              ]]
-            await query.message.edit(text=LuciferMoringstar.WHO_AM_I.format(mention=query.from_user.mention, bot_name=bot_info.BOT_NAME, bot_username=bot_info.BOT_USERNAME, dev_name=DEV_NAME  team=team_name, team_link=team_link), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
-
+            await query.message.edit(text=LuciferMoringstar.WHO_AM_I.format(mention=query.from_user.mention, bot_name=bot_info.BOT_NAME, bot_username=bot_info.BOT_USERNAME, dev_name=DEV_NAME), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+        
+        elif query.data == "close":
+            await query.message.delete()
+        
         elif query.data == "bot_owner":
             buttons = [[
              InlineKeyboardButton('🏠 Home', callback_data="start"),
