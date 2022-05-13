@@ -29,6 +29,12 @@ Some People Need To Be Publicly Muted: Spammers, Annkyances, Or Just Trolls...! 
 ★ /unmute - Unmute A User
 
 **[🥀 Maintained By {team}]({team_link})**"""
+   whoami_text = """
+ 👋 Hello I am Movie Time Bot 2.0
+   
+   My Creator Bikash 
+    
+
 
     pin_message = """
 📌 <u>𝐏𝐢𝐧 𝐌𝐞𝐬𝐬𝐚𝐠𝐞</u> :-
