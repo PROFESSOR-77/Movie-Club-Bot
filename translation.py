@@ -1,7 +1,7 @@
 class LuciferMoringstar(object):
 
-    DEFAULT_MSG = """👋Hello {mention}.....!!!\nIt's Power Full [{bot_name}](t.me/{bot_username}) Here 😎\nAdd Me To Your Group And Make Sure I'm an Admin There! \nAnd Enjoy My Pever Show.....!!!🤪"""
-    WHO_AM_I_MSG = """👋Hello {mention} \nMy Name Is Bikash"""
+    DEFAULT_MSG = """👋Hello {mention}.....!!!\nIt's Power Full [{bot_name}](t.me/{bot_username}) Here 😎\nAdd Me To Your Group And Make Sure I'm an Admin There! \nAnd Enjoy My Pever Show."""
+    
     HELP_MSG = """**This help button contains only admin commands so only group admin can see help commands.**"""
 
     ABOUT_MSG = """
