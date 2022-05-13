@@ -25,7 +25,8 @@ async def start_message(bot, message):
              InlineKeyboardButton("😎 About", callback_data="about") 
              ]]
         await message.reply_photo(photo = random.choice(BOT_PICS), caption=START_MSG.format(mention = message.from_user.mention, bot_name = bot_info.BOT_NAME, bot_username = bot_info.BOT_USERNAME), reply_markup=InlineKeyboardMarkup(buttons))
-         elif len(message.command) ==2 and message.command[1] in ["subscribe"]:
+         
+    elif len(message.command) ==2 and message.command[1] in ["subscribe"]:
         FORCES=["https://telegra.ph/file/dc07517edd588aad50b36.jpg"]
         invite_link = await bot.create_chat_invite_link(int(FORCES_SUB))
         button=[[
