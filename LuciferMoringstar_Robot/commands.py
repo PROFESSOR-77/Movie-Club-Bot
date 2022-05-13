@@ -59,6 +59,8 @@ async def about(bot, message):
     button = [[
      InlineKeyboardButton("🏠 Home", callback_data="start"),
      InlineKeyboardButton("Close 🗑️", callback_data="close")
+     ],[
+     InlineKeyboardButton("🎭 Who Am I", callback_data="who")
      ]]  
     await message.reply_photo(
         photo=random.choice(BOT_PICS),
