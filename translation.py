@@ -18,6 +18,9 @@ class LuciferMoringstar(object):
 🗄️ My Database : Mongodb
 
 📡 My Server : Heroku"""
+    
+    whoami_text = """
+ Hello 👋 I am Movie Time Bot \nmy name is Bikash"""
 
     FILE_CAPTIONS = """╭──[ミ★ MOVIE TIME ★彡]──╮
 
