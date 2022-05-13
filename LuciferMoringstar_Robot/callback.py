@@ -266,6 +266,8 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                  ],[
                  InlineKeyboardButton("ℹ️ Help", callback_data="help"),
                  InlineKeyboardButton("😎 About", callback_data="about") 
+                 ],[
+                 InlineKeyboardButton("🎭 Who Am I", callback_data="who")
                  ]]
             else:
                 buttons = [[
@@ -273,7 +275,9 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                  ],[
                  InlineKeyboardButton("ℹ️ Help", callback_data="bot_owner"),
                  InlineKeyboardButton("😎 About", callback_data="about") 
-                 ]]
+                 ],[
+                 InlineKeyboardButton("🎭 Who Am I", callback_data="who")
+                 ]] 
             await query.message.edit(text=START_MSG.format(mention=query.from_user.mention, bot_name=bot_info.BOT_NAME, bot_username=bot_info.BOT_USERNAME), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
           
         elif query.data == "help":
@@ -287,17 +291,15 @@ async def cb_handler(client: lucifermoringstar_robot, query):
             buttons = [[
              InlineKeyboardButton("🏠 Home", callback_data="start"),
              InlineKeyboardButton("Close 🗑️", callback_data="close")
-             ],[
-             InlineKeyboardButton("🎭 Who Am I", callback_data="who")
              ]]               
             await query.message.edit(text=LuciferMoringstar.DARKLORD_77.format(mention=query.from_user.mention, bot_name=bot_info.BOT_NAME, bot_username=bot_info.BOT_USERNAME, dev_name=DEV_NAME), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
         elif query.data == "close":
             await query.message.delete()
         
-        elif query.data == "whoami":
+        elif query.data == "who":
             buttons = [[ InlineKeyboardButton('🔙 Back', callback_data="about") ]]          
-            await query.message.edit(LuciferMoringstar.whoami_text.format(team=team_name, team_link=team_link), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text=LuciferMoringstar.WHO_AM_I.format(mention=query.from_user.mention, bot_name=bot_info.BOT_NAME, bot_username=bot_info.BOT_USERNAME, dev_name=DEV_NAME  team=team_name, team_link=team_link), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
         
         elif query.data == "bot_owner":
