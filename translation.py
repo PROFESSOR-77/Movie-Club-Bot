@@ -19,7 +19,7 @@ class LuciferMoringstar(object):
 
 📡 My Server : Heroku"""
     
-    whoami_text = """
+    WHO_AM_I = """
  Hello 👋 I am Movie Time Bot \nmy name is Bikash"""
 
     FILE_CAPTIONS = """╭──[ミ★ MOVIE TIME ★彡]──╮
