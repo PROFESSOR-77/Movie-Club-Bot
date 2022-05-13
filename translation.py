@@ -20,7 +20,29 @@ class LuciferMoringstar(object):
 📡 My Server : Heroku"""
     
     WHO_AM_I = """
- Hello 👋 I am Movie Time Bot \nmy name is Bikash"""
+Hello 👋 {mention},
+I Can't Write Everything In My Bio So I Created This...
+
+╭──[─═ ᴘᴇʀꜱᴏɴᴀʟ ɪɴꜰᴏ ═─]
+├• Name⇝ Bikash Maity
+├• Gender⇝ Male
+├• TG Name⇝ DarkLord
+├• Username⇝ @hellodarklord
+├• Birthday⇝ 10January 2006
+├• Age⇝ 15
+├• Relationship Status⇝ Single
+├• Nationality⇝ Indian
+├• Location⇝ West Bengal,India
+├• Contact Bot⇝  Coming Soon...
+╰──────⍟───────╯
+
+╭──[─═ ᴏᴡɴᴇʀ ᴀᴛ ═─]
+├•<a href="https://t.me/+PD0ieo-ECJgxMTU9">MOVIE TIME 2.0 </a>
+├•<a href="https://t.me/+xd1sHIez1C9mNWE1">MOVIE TIME UPDATES</a>
+├•<a href="https://t.me/MovieTime_Robot">MOVIE TIME BOT</a>
+╰──────⍟───────╯
+
+Thank You For Reading Patiently 🙏"""
 
     FILE_CAPTIONS = """╭──[ミ★ MOVIE TIME ★彡]──╮
 
