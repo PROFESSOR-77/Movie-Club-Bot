@@ -269,7 +269,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                  ],[
                  InlineKeyboardButton("🎭 Who Am I", callback_data="wai")
                  ]]
-             else:
+            else:
                 buttons = [[
                  InlineKeyboardButton("🔗 Movie Time", url=f"https://t.me/+4kz4z9zCyLdjZjI1")
                  ],[
