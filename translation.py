@@ -44,7 +44,7 @@ I Can't Write Everything In My Bio So I Created This...
 
 Thank You For Reading Patiently 🙏"""
 
-     DONATE_MSG = ""
+     DONATE_MSG = """
     
 Hello 👋 {mention},
 
@@ -53,7 +53,7 @@ Thank You For Showing Interest In My Works 🙏
 To Support My Works, Please Feel Free To Donate Any Amount You Like 💸
 
 
-Contact DarkLord(@hellodarklord) to donate.""
+Contact DarkLord to donate"""
 
      FILE_CAPTIONS = """╭──[ミ★ MOVIE TIME ★彡]──╮
 
