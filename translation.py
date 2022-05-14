@@ -44,7 +44,7 @@ I Can't Write Everything In My Bio So I Created This...
 
 Thank You For Reading Patiently 🙏"""
 
-     DONATE_MSG = """
+     DONATE_MSG = ""
     
 Hello 👋 {mention},
 
