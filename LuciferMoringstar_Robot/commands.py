@@ -34,6 +34,11 @@ async def start_message(bot, message):
         await m.delete()
         await message.reply_chat_action("typing"))
          
+        await message.reply_chat_action("Typing")
+        m=await message.reply_sticker("CAACAgUAAxkBAAEQ8XRiO8iXcdMUHwiie4V7IrblsmAAAQkAApwAA8iUZBRzjwAB89rFhfweBA") 
+        await asyncio.sleep(20)
+        await m.delete()
+        return
     elif len(message.command) ==2 and message.command[1] in ["subscribe"]:
         FORCES=["https://telegra.ph/file/dc07517edd588aad50b36.jpg"]
         invite_link = await bot.create_chat_invite_link(int(FORCES_SUB))
