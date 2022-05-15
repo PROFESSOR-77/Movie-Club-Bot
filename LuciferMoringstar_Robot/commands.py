@@ -28,7 +28,7 @@ async def start_message(bot, message):
              ],[
              InlineKeyboardButton("🎭 Who Am I", callback_data="who")
              ]]
-             reply_markup = InlineKeyboardMarkup(buttons)
+             reply_markup = InlineKeyboardMarkup(button)
              await message.reply_chat_action("typing")
              m=await message.reply_sticker("CAACAgUAAxkBAAEO6RtiO7D4w8Paf-xsd4NCdvg8efiU1wACFQEAAsiUZBRmRDCipxVsEyME") 
              await asyncio.sleep(2)
