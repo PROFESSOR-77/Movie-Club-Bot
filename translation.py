@@ -26,7 +26,7 @@ I Can't Write Everything In My Bio So I Created This...
 ╭──[─═ ᴘᴇʀꜱᴏɴᴀʟ ɪɴꜰᴏ ═─]
 ├• Name⇝ Bikash Maity
 ├• Gender⇝ Male
-├• TG Name⇝ <a href="https://t.me/hellodarklord_Bot">DarkLord</a> 
+├• TG Name⇝ <a href="https://t.me/hellodarklord">DarkLord</a> 
 ├• Username⇝ @hellodarklord
 ├• Birthday⇝ 10th January 2006
 ├• Age⇝ 15
