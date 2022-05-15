@@ -26,14 +26,14 @@ I Can't Write Everything In My Bio So I Created This...
 ╭──[─═ ᴘᴇʀꜱᴏɴᴀʟ ɪɴꜰᴏ ═─]
 ├• Name⇝ Bikash Maity
 ├• Gender⇝ Male
-├• TG Name⇝ DarkLord
+├• TG Name⇝ <a href="https://t.me/hellodarklord_Bot">DarkLord</a> 
 ├• Username⇝ @hellodarklord
-├• Birthday⇝ 10January 2006
+├• Birthday⇝ 10th January 2006
 ├• Age⇝ 15
 ├• Relationship Status⇝ Single
 ├• Nationality⇝ Indian
-├• Location⇝ West Bengal,India
-├• Contact Bot⇝  Coming Soon...
+├• Location⇝ West Bengal,India,Manikpur
+├• Contact Bot⇝ <a href="https://t.me/hellodarklord_Bot">DarkLord 🤖</a>
 ╰──────⍟───────╯
 
 ╭──[─═ ᴏᴡɴᴇʀ ᴀᴛ ═─]
@@ -57,11 +57,11 @@ Thank You For Reading Patiently 🙏"""
 
 ├• 🔘 𝐉𝐨𝐢𝐧 🎗 𝐒𝐡𝐚𝐫𝐞 🎗 𝐒𝐮𝐩𝐩𝐨𝐫𝐭
 
-├• 🔗 <a href="https://t.me/+PD0ieo-ECJgxMTU9">Movie Time 2.0 </a>
+├• 🔗 <a href="https://t.me/+PD0ieo-ECJgxMTU9">Movie Time 2.0</a>
 
 ├• 📣 <a href="https://t.me/+xd1sHIez1C9mNWE1">Movie Time Updates</a>
 
-├• ⬆️ 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 
+├• ⬆️ 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 DarkLord
 
 ╰──────[ 👑 ]───────╯"""
     
