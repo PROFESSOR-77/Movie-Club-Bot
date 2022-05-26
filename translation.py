@@ -17,7 +17,7 @@ class LuciferMoringstar(object):
 
 🗄️ My Database : Mongodb
 
-📡 My Server : Heroku"""
+📡 My Server : Okteto"""
     
     WHO_AM_I = """
 Hello 👋 {mention},
