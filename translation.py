@@ -9,16 +9,18 @@ class LuciferMoringstar(object):
 
 🤴 My Dev : [DarkLord](t.me/hellodarklord)
 
-🧑‍💻 My Creator : {dev_name}
-
 🛠️ My Library : Pyrogram
 
 ㊗️ My Language : Python3
 
 🗄️ My Database : Mongodb
 
-📡 My Server : Okteto"""
-    
+📡 My Server : Okteto
+
+🤖 Restarted On : [29.05.2022] 10:49 AM
+
+🤖 Last Updated : [29.05.2022] 10:50 AM"""
+
     WHO_AM_I = """
 Hello 👋 {mention},
 I Can't Write Everything In My Bio So I Created This...
