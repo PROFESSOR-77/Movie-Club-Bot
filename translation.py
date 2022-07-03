@@ -1,6 +1,11 @@
 class LuciferMoringstar(object):
 
-    DEFAULT_MSG = """Hello 👋 {mention},\nI Am Not Only <a href="https://t.me/MoviesClub_Robot">Movies Club Bot</a> To Assist You But Also Employed At <a href="https://t.me/NewMoviesClub2022">Movies Club</a> Group By <a href="https://t.me/HeartBeat_77">HeartBeat-77</a> So You Can't Get My Service By Adding Me To Your Group So Don't Waste Your Time & Data 😉\nBetter You Click Below & Join <a href="https://t.me/NewMoviesClub2022">Movies Club</a> & Feel The Experience Of Downloading Unlimited Movies/ Series ✅\nFor More Information Click ℹ️ Help """
+    DEFAULT_MSG = """
+**Hello 👋 {mention}**,
+
+**I Am Not Only <a href="https://t.me/MoviesClub_Robot">Movies Club Bot</a> To Assist You But Also Employed At <a href="https://t.me/NewMoviesClub2022">Movies Club</a> Group By <a href="https://t.me/HeartBeat_77">HeartBeat-77</a> So You Can't Get My Service By Adding Me To Your Group So Don't Waste Your Time & Data 😉**
+
+**Better You Click Below & Join <a href="https://t.me/NewMoviesClub2022">Movies Club</a> & Feel The Experience Of Downloading Unlimited Movies/ Series ✅\nFor More Information Click ℹ️ Help**"""
     
     HELP_MSG = """**This help button contains only admin commands so only group admin can see help commands.**"""
 
