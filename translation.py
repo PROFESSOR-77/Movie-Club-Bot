@@ -1,25 +1,21 @@
 class LuciferMoringstar(object):
 
-    DEFAULT_MSG = """👋Hello {mention}.....!!!\nIt's Power Full [{bot_name}](t.me/{bot_username}) Here 😎\nAdd Me To Your Group And Make Sure I'm an Admin There! \nAnd Enjoy My Pever Show."""
+    DEFAULT_MSG = """Hello 👋 {mention},\nI Am Not Only <a href="https://t.me/MoviesClub_Robot">Movies Club Bot</a> To Assist You But Also Employed At <a href="https://t.me/NewMoviesClub2022">Movies Club</a> Group By <a href="https://t.me/HeartBeat_77">HeartBeat-77</a> So You Can't Get My Service By Adding Me To Your Group So Don't Waste Your Time & Data 😉\nBetter You Click Below & Join <a href="https://t.me/NewMoviesClub2022">Movies Club</a> & Feel The Experience Of Downloading Unlimited Movies/ Series ✅\nFor More Information Click ℹ️ Help """
     
     HELP_MSG = """**This help button contains only admin commands so only group admin can see help commands.**"""
 
     DARKLORD_77 = """
 🤖 My Name : [{bot_name}](t.me/{bot_username})
 
-🤴 My Dev : [DarkLord](t.me/hellodarklord)
+🤴 My Dev : [HeartBeat-77](t.me/HeartBeat_77)
 
 🛠️ My Library : Pyrogram
 
-㊗️ My Language : Python3
+㊗️ My Language : Python 3
 
 🗄️ My Database : Mongodb
 
-📡 My Server : Okteto
-
-🤖 Restarted On : [29.05.2022] 10:49 AM
-
-🤖 Last Updated : [29.05.2022] 10:50 AM"""
+📡 My Server : Heroku"""
 
     WHO_AM_I = """
 Hello 👋 {mention},
@@ -59,11 +55,11 @@ Thank You For Reading Patiently 🙏"""
 
 ├• 🔘 𝐉𝐨𝐢𝐧 🎗 𝐒𝐡𝐚𝐫𝐞 🎗 𝐒𝐮𝐩𝐩𝐨𝐫𝐭
 
-├• 🔗 <a href="https://t.me/+PD0ieo-ECJgxMTU9">Movie Time 2.0</a>
+├• 🔗 <a href="https://t.me/NewMoviesClub2022">Movies Club 2.0</a>
 
-├• 📣 <a href="https://t.me/+xd1sHIez1C9mNWE1">Movie Time Updates</a>
+├• 📣 <a href="https://t.me/+pDzwoBleoxxhY2I1">Movies Club Updates</a>
 
-├• ⬆️ 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 DarkLord
+├• ⬆️ 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 <a href="https://t.me/HeartBeat_77">HeartBeat-77</a>
 
 ╰──────[ 👑 ]───────╯"""
     
