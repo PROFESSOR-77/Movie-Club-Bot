@@ -24,26 +24,26 @@ I Can't Write Everything In My Bio So I Created This...
 ╭──[─═ ᴘᴇʀꜱᴏɴᴀʟ ɪɴꜰᴏ ═─]
 ├• Name⇝ Bikash Maity
 ├• Gender⇝ Male
-├• TG Name⇝ <a href="https://t.me/hellodarklord">DarkLord</a> 
-├• Username⇝ @hellodarklord
+├• TG Name⇝ <a href="https://t.me/HeartBeat_77">HeartBeat-77</a> 
+├• Username⇝ @HeartBeat_77
 ├• Birthday⇝ 10th January 2006
-├• Age⇝ 15
+├• Age⇝ 16
 ├• Relationship Status⇝ Single
 ├• Nationality⇝ Indian
 ├• Location⇝ West Bengal,India,Manikpur
-├• Contact Bot⇝ <a href="https://t.me/hellodarklord_Bot">DarkLord 🤖</a>
+├• Contact Bot⇝ Coming Soon...
 ╰──────⍟───────╯
 
 ╭──[─═ ᴏᴡɴᴇʀ ᴀᴛ ═─]
-├•<a href="https://t.me/+PD0ieo-ECJgxMTU9">MOVIE TIME 2.0 </a>
-├•<a href="https://t.me/+xd1sHIez1C9mNWE1">MOVIE TIME UPDATES</a>
-├•<a href="https://t.me/MovieTime_Robot">MOVIE TIME BOT</a>
+├•<a href="https://t.me/NewMoviesClub2022">MOVIES CLUB 2.0</a>
+├•<a href="https://t.me/+pDzwoBleoxxhY2I1">MOVIES CLUB UPDATES</a>
+├•<a href="https://t.me/MoviesClub_Robot">MOVIES CLUB BOT</a>
 ╰──────⍟───────╯
 
 Thank You For Reading Patiently 🙏"""
     
     FILE_CAPTIONS = """
- ╭──[ミ★ MOVIE TIME ★彡]──╮
+ ╭──[ミ★ MOVIES CLUB ★彡]──╮
 
 ├• 👋 𝐇𝐞𝐥𝐥𝐨 {mention}
 
@@ -77,7 +77,12 @@ Thank You For Reading Patiently 🙏"""
     SPELL_CHECK = """
 **Hello 👋{mention}**,
 
-**Couldn't Find {query}?  Please Click Your Request Movie Name**"""
+**I Couldn't Find {query} You Asked For 🤷**
+
+**Click [GOOGLE] [IMDB] On Any Button And Find The Correct Movie/Series Name And Enter It Here ⤵️**
+
+**If You Do Not Receive The Movie/Series Even After Entering The Correct Name Then Your Requested Movie/Series Does Not Exit In My Database 🗄**"""
+
     GET_MOVIE_1 = """
 **Hello 👋{mention}**,
 
@@ -85,10 +90,10 @@ Thank You For Reading Patiently 🙏"""
 👤 **Requested By** : {mention}
 🎬 **Title** : [{title}]({url})
 📆 **Year** : {year}
-🌟 **Rating** {rating}/10
-🎭 **Genres** {genres}
-📤 Uploaded To : Movie Time Server
-🧑‍🔧 Get Support ✔️ DarkLord
+🌟 **Rating** : {rating}/10
+🎭 **Genres** : {genres}
+📤 Uploaded To : Movies Club Server
+🧑‍🔧 Get Support ✔️ HeartBeat-77
 
 📌 Press The Down Buttons To Access The File
 📌 This Post Will Be Deleted After 10 Minutes"""
@@ -98,8 +103,8 @@ Thank You For Reading Patiently 🙏"""
 
 ↪️ **Requested Movie** : {query}
 👤 **Requested By** : {mention}
-📤 Uploaded To : Movie Time Server
-🧑‍🔧 Get Support ✔️ DarkLord
+📤 Uploaded To : Movies Club Server
+🧑‍🔧 Get Support ✔️ Heartbeat-77
 
 📌 Press The Down Buttons To Access The File
 📌 This Post Will Be Deleted After 10 Minutes"""
