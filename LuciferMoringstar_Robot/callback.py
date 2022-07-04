@@ -244,7 +244,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                 caption=CUSTOM_FILE_CAPTION.format(mention=query.from_user.mention, title=title, size=size, caption=files.caption)
 
                 buttons = [[
-                  InlineKeyboardButton('🔗 Movie Time', url='https://t.me/+4kz4z9zCyLdjZjI1')
+                  InlineKeyboardButton('🔗 Movies Club', url='https://t.me/NewMoviesClub2022')
                   ]]                 
                 
                 await query.answer()
@@ -262,7 +262,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
         elif query.data == "start":
             if query.from_user.id not in ADMINS: 
                 buttons = [[
-                 InlineKeyboardButton("🔗 Movie Time", url=f"https://t.me/+4kz4z9zCyLdjZjI1")
+                 InlineKeyboardButton("🔗 Movies Club", url=f"https://t.me/NewMoviesClub2022")
                  ],[
                  InlineKeyboardButton("ℹ️ Help", callback_data="help"),
                  InlineKeyboardButton("😎 About", callback_data="about") 
@@ -271,7 +271,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                  ]]
             else:
                 buttons = [[
-                 InlineKeyboardButton("🔗 Movie Time", url=f"https://t.me/+4kz4z9zCyLdjZjI1")
+                 InlineKeyboardButton("🔗 Movies Club", url=f"https://t.me/NewMoviesClub2022")
                  ],[
                  InlineKeyboardButton("ℹ️ Help", callback_data="bot_owner"),
                  InlineKeyboardButton("😎 About", callback_data="about") 
