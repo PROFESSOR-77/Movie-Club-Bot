@@ -12,7 +12,7 @@ async def start_message(bot, message):
     if len(message.command) != 2:
         if message.from_user.id not in ADMINS: 
             buttons = [[
-             InlineKeyboardButton("🔗 Movie Time", url=f"https://t.me/+4kz4z9zCyLdjZjI1")
+             InlineKeyboardButton("🔗 Movies Club", url=f"https://t.me/NewMoviesClub2022")
              ],[
              InlineKeyboardButton("ℹ️ Help", callback_data="help"),
              InlineKeyboardButton("😎 About", callback_data="about") 
@@ -21,7 +21,7 @@ async def start_message(bot, message):
              ]]
         else:
             buttons = [[
-             InlineKeyboardButton("🔗 Movie Time", url=f"https://t.me/+4kz4z9zCyLdjZjI1")
+             InlineKeyboardButton("🔗 Movies Club", url=f"https://t.me/NewMoviesClub2022")
              ],[
              InlineKeyboardButton("ℹ️ Help", callback_data="bot_owner"),
              InlineKeyboardButton("😎 About", callback_data="about") 
@@ -34,7 +34,7 @@ async def start_message(bot, message):
         FORCES=["https://telegra.ph/file/dc07517edd588aad50b36.jpg"]
         invite_link = await bot.create_chat_invite_link(int(FORCES_SUB))
         button=[[
-         InlineKeyboardButton("🔔 Movie Time Updates 🔔", url=invite_link.invite_link)
+         InlineKeyboardButton("🔔 Movies Club Updates 🔔", url=invite_link.invite_link)
          ]]
         reply_markup = InlineKeyboardMarkup(button)
         await message.reply_photo(
