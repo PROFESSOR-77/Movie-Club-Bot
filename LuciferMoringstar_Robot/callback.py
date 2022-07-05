@@ -10,7 +10,7 @@ from LuciferMoringstar_Robot.database._utils import get_size, is_subscribed
 from LuciferMoringstar_Robot.database._utils import lucifer_temp
 
 from translation import LuciferMoringstar
-from config import BUTTONS, FORCES_SUB, CUSTOM_FILE_CAPTION, START_MSG, DEV_NAME, bot_info, ADMINS, team_name, team_link
+from config import BUTTONS, FORCES_SUB, CUSTOM_FILE_CAPTION, START_MSG, DEV_NAME, bot_info, ADMINS, PROTECT_FILES, team_name, team_link
 
 from LuciferMoringstar_Robot.modules._text_ import module
 
@@ -210,7 +210,12 @@ async def cb_handler(client: lucifermoringstar_robot, query):
             title = files.file_name
             size=get_size(files.file_size)
             caption=CUSTOM_FILE_CAPTION.format(mention=query.from_user.mention, title=title, size=size, caption=files.caption)
-
+            buttons = [[ InlineKeyboardButton(f"🆘👤 Owner", url="https://t.me/hellodarklord") ]]
+            if PROTECT_FILES["protectfiles"]:
+                protect_content = True
+            else:
+                protect_content = False
+            
             try:
                 if FORCES_SUB and not await is_subscribed(client, query):
                     await query.answer(url=f"https://t.me/{bot_info.BOT_USERNAME}?start=subscribe")
