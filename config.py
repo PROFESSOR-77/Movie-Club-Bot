@@ -40,7 +40,7 @@ CURRENT = int(environ.get("SKIP", 2))
 CANCEL = False
 FORCES_SUB = int(FORCE) if FORCE and id_pattern.search(FORCE) else FORCE
 DATABASE_NAME = environ.get("DATABASE_NAME", 'LuciferMoringstar_Robot')
-AUTH_USERS = (AUTH_USERS + ADMINS) if auth_users else []
+AUTH_USERS = (AUTH_USERS + ADMINS) if AUTH_USERS else []
 # ==================================
 
 team_name = os.environ.get('team_name', 'Mo Tech 🇮🇳')
