@@ -3,7 +3,7 @@ class LuciferMoringstar(object):
     DEFAULT_MSG = """
 **Hello 👋 {mention}**,
 
-**I Am Not Only <a href="https://t.me/MoviesClub_Robot">Movies Club Bot</a> To Assist You But Also Employed At <a href="https://t.me/NewMoviesClub2022">Movies Club</a> Group By <a href="https://t.me/HeartBeat_77">HeartBeat-77</a> So You Can't Get My Service By Adding Me To Your Group So Don't Waste Your Time & Data 😉**
+**I Am Not Only <a href="https://t.me/MoviesClub_Robot">Movies Club Bot</a> To Assist You But Also Employed At <a href="https://t.me/NewMoviesClub2022">Movies Club</a> Group By <a href="https://t.me/helloheartbeatboss">HeartBeat</a> So You Can't Get My Service By Adding Me To Your Group So Don't Waste Your Time & Data 😉**
 
 **Better You Click Below & Join <a href="https://t.me/NewMoviesClub2022">Movies Club</a> & Feel The Experience Of Downloading Unlimited Movies/ Series ✅**"""
     
@@ -12,7 +12,7 @@ class LuciferMoringstar(object):
     DARKLORD_77 = """
 🤖 My Name : [{bot_name}](t.me/{bot_username})
 
-🤴 My Dev : [HeartBeat-77](t.me/HeartBeat_77)
+🤴 My Dev : [HeartBeat](t.me/helloheartbeatboss)
 
 🛠️ My Library : Pyrogram
 
@@ -29,8 +29,8 @@ I Can't Write Everything In My Bio So I Created This...
 ╭──[─═ ᴘᴇʀꜱᴏɴᴀʟ ɪɴꜰᴏ ═─]
 ├• Name⇝ Bikash Maity
 ├• Gender⇝ Male
-├• TG Name⇝ <a href="https://t.me/HeartBeat_77">HeartBeat-77</a> 
-├• Username⇝ @HeartBeat_77
+├• TG Name⇝ <a href="https://t.me/helloheartbeatboss">HeartBeat</a> 
+├• Username⇝ @helloheartbeatboss
 ├• Birthday⇝ 10th January 2006
 ├• Age⇝ 16
 ├• Relationship Status⇝ Single
@@ -40,15 +40,15 @@ I Can't Write Everything In My Bio So I Created This...
 ╰──────⍟───────╯
 
 ╭──[─═ ᴏᴡɴᴇʀ ᴀᴛ ═─]
-├•<a href="https://t.me/NewMoviesClub2022">MOVIES CLUB 2.0</a>
-├•<a href="https://t.me/+pDzwoBleoxxhY2I1">MOVIES CLUB UPDATES</a>
-├•<a href="https://t.me/MoviesClub_Robot">MOVIES CLUB BOT</a>
+├•<a href="https://t.me/NewMoviesClub2022">MOVIE CLUB 2.0</a>
+├•<a href="https://t.me/+pDzwoBleoxxhY2I1">MOVIE CLUB UPDATES</a>
+├•<a href="https://t.me/MoviesClub_Robot">MOVIE CLUB BOT 2.0</a>
 ╰──────⍟───────╯
 
 Thank You For Reading Patiently 🙏"""
     
     FILE_CAPTIONS = """
- ╭──[ミ★ MOVIES CLUB ★彡]──╮
+ ╭──[ミ★ MOVIE CLUB ★彡]──╮
 
 ├• 👋 𝐇𝐞𝐥𝐥𝐨 {mention}
 
@@ -60,11 +60,11 @@ Thank You For Reading Patiently 🙏"""
 
 ├• 🔘 𝐉𝐨𝐢𝐧 🎗 𝐒𝐡𝐚𝐫𝐞 🎗 𝐒𝐮𝐩𝐩𝐨𝐫𝐭
 
-├• 🔗 <a href="https://t.me/NewMoviesClub2022">Movies Club 2.0</a>
+├• 🔗 <a href="https://t.me/NewMoviesClub2022">Movie Club 2.0</a>
 
-├• 📣 <a href="https://t.me/+pDzwoBleoxxhY2I1">Movies Club Updates</a>
+├• 📣 <a href="https://t.me/+pDzwoBleoxxhY2I1">Movie Club Updates</a>
 
-├• ⬆️ 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 <a href="https://t.me/HeartBeat_77">HeartBeat-77</a>
+├• ⬆️ 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 <a href="https://t.me/helloheartbeatboss">HeartBeat</a>
 
 ╰──────[ 👑 ]───────╯"""
     
@@ -91,8 +91,6 @@ Thank You For Reading Patiently 🙏"""
     GET_MOVIE_1 = """
 **Hello 👋{mention}**,
 
-↪️ **Requested Movie** : [{query}]({url})
-👤 **Requested By** : {mention}
 🎬 **Title** : [{title}]({url})
 📆 **Year** : {year}
 🌟 **Rating** : {rating}/10
@@ -106,8 +104,10 @@ Thank You For Reading Patiently 🙏"""
     GET_MOVIE_2 = """
 **Hello 👋{mention}**,
 
-↪️ **Requested Movie** : {query}
-👤 **Requested By** : {mention}
+🎬 **Title** : [{title}]({url})
+📆 **Year** : {year}
+🌟 **Rating** : {rating}/10
+🎭 **Genres** : {genres}
 📤 Uploaded To : Movies Club Server
 🧑‍🔧 Get Support ✔️ Heartbeat-77
 
