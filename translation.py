@@ -3,22 +3,22 @@ class LuciferMoringstar(object):
     DEFAULT_MSG = """
 **Hello 👋 {mention}**,
 
-**I Am Not Only <a href="https://t.me/MoviesClub_Robot">Movies Club Bot</a> To Assist You But Also Employed At <a href="https://t.me/NewMoviesClub2022">Movies Club</a> Group By <a href="https://t.me/helloheartbeatboss">HeartBeat</a> So You Can't Get My Service By Adding Me To Your Group So Don't Waste Your Time & Data 😉**
+**I Am Not Only <a href="https://t.me/MoviesClub_Robot">Movie Club Bot</a> To Assist You But Also Employed At <a href="https://t.me/+ZLfYBUbS-adiY2E1">Movie Club</a> Group By <a href="https://t.me/helloheartbeatboss">HeartBeat</a> So You Can't Get My Service By Adding Me To Your Group So Don't Waste Your Time & Data 😉**
 
-**Better You Click Below & Join <a href="https://t.me/NewMoviesClub2022">Movies Club</a> & Feel The Experience Of Downloading Unlimited Movies/ Series ✅**"""
+**Better You Click Below & Join <a href="https://t.me/+ZLfYBUbS-adiY2E1">Movie Club</a> & Feel The Experience Of Downloading Unlimited Movies/ Series ✅**"""
     
     HELP_MSG = """**This help button contains only admin commands so only group admin can see help commands.**"""
 
     DARKLORD_77 = """
-🤖 My Name : [{bot_name}](t.me/{bot_username})
+🤖 My Name : {bot_name}
 
-🤴 My Dev : [HeartBeat](t.me/helloheartbeatboss)
+🤴 My Dev : HeartBeat
 
 🛠️ My Library : Pyrogram
 
 ㊗️ My Language : Python 3
 
-🗄️ My Database : Mongodb
+🗄️ My Database : MongoDB 
 
 📡 My Server : Heroku"""
 
@@ -40,7 +40,7 @@ I Can't Write Everything In My Bio So I Created This...
 ╰──────⍟───────╯
 
 ╭──[─═ ᴏᴡɴᴇʀ ᴀᴛ ═─]
-├•<a href="https://t.me/NewMoviesClub2022">MOVIE CLUB 2.0</a>
+├•<a href="https://t.me/+ZLfYBUbS-adiY2E1">MOVIE CLUB 2.0</a>
 ├•<a href="https://t.me/+pDzwoBleoxxhY2I1">MOVIE CLUB UPDATES</a>
 ├•<a href="https://t.me/MoviesClub_Robot">MOVIE CLUB BOT 2.0</a>
 ╰──────⍟───────╯
@@ -60,7 +60,7 @@ Thank You For Reading Patiently 🙏"""
 
 ├• 🔘 𝐉𝐨𝐢𝐧 🎗 𝐒𝐡𝐚𝐫𝐞 🎗 𝐒𝐮𝐩𝐩𝐨𝐫𝐭
 
-├• 🔗 <a href="https://t.me/NewMoviesClub2022">Movie Club 2.0</a>
+├• 🔗 <a href="https://t.me/+ZLfYBUbS-adiY2E1">Movie Club 2.0</a>
 
 ├• 📣 <a href="https://t.me/+pDzwoBleoxxhY2I1">Movie Club Updates</a>
 
@@ -95,8 +95,8 @@ Thank You For Reading Patiently 🙏"""
 📆 **Year** : {year}
 🌟 **Rating** : {rating}/10
 🎭 **Genres** : {genres}
-📤 Uploaded To : Movies Club Server
-🧑‍🔧 Get Support ✔️ HeartBeat-77
+📤 Uploaded To : Movie Club Server
+🧑‍🔧 Get Support ✔️ HeartBeat
 
 📌 Press The Down Buttons To Access The File
 📌 This Post Will Be Deleted After 10 Minutes"""
@@ -108,8 +108,8 @@ Thank You For Reading Patiently 🙏"""
 📆 **Year** : {year}
 🌟 **Rating** : {rating}/10
 🎭 **Genres** : {genres}
-📤 Uploaded To : Movies Club Server
-🧑‍🔧 Get Support ✔️ Heartbeat-77
+📤 Uploaded To : Movie Club Server
+🧑‍🔧 Get Support ✔️ Heartbeat
 
 📌 Press The Down Buttons To Access The File
 📌 This Post Will Be Deleted After 10 Minutes"""
