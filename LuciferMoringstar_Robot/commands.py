@@ -12,7 +12,7 @@ async def start_message(bot, message):
     if len(message.command) != 2:
         if message.from_user.id not in ADMINS: 
             buttons = [[
-             InlineKeyboardButton("🔗 Movies Club", url=f"https://t.me/NewMoviesClub2022")
+             InlineKeyboardButton("🔗 Movie Club", url=f"https://t.me/+ZLfYBUbS-adiY2E1")
              ],[
              InlineKeyboardButton("ℹ️ Help", callback_data="help"),
              InlineKeyboardButton("😎 About", callback_data="about") 
@@ -21,7 +21,7 @@ async def start_message(bot, message):
              ]]
         else:
             buttons = [[
-             InlineKeyboardButton("🔗 Movies Club", url=f"https://t.me/NewMoviesClub2022")
+             InlineKeyboardButton("🔗 Movie Club", url=f"https://t.me/+ZLfYBUbS-adiY2E1")
              ],[
              InlineKeyboardButton("ℹ️ Help", callback_data="bot_owner"),
              InlineKeyboardButton("😎 About", callback_data="about") 
@@ -31,10 +31,10 @@ async def start_message(bot, message):
         await message.reply_photo(photo = random.choice(BOT_PICS), caption=START_MSG.format(mention = message.from_user.mention, bot_name = bot_info.BOT_NAME, bot_username = bot_info.BOT_USERNAME), reply_markup=InlineKeyboardMarkup(buttons))
         
     elif len(message.command) ==2 and message.command[1] in ["subscribe"]:
-        FORCES=["https://telegra.ph/file/dc07517edd588aad50b36.jpg"]
+        FORCES=["https://telegra.ph/file/a0740de5f50d6ac1bc3a9.jpg"]
         invite_link = await bot.create_chat_invite_link(int(FORCES_SUB))
         button=[[
-         InlineKeyboardButton("🔔 Movies Club Updates 🔔", url=invite_link.invite_link)
+         InlineKeyboardButton("🔔 Movie Club Updates 🔔", url=invite_link.invite_link)
          ]]
         reply_markup = InlineKeyboardMarkup(button)
         await message.reply_photo(
