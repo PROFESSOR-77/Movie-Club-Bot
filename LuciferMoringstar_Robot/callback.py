@@ -263,7 +263,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
         elif query.data == "start":
             if query.from_user.id not in ADMINS: 
                 buttons = [[
-                 InlineKeyboardButton("🔗 Movies Club", url=f"https://t.me/NewMoviesClub2022")
+                 InlineKeyboardButton("🔗 Movie Club", url=f"https://t.me/+ZLfYBUbS-adiY2E1")
                  ],[
                  InlineKeyboardButton("ℹ️ Help", callback_data="help"),
                  InlineKeyboardButton("😎 About", callback_data="about") 
@@ -272,7 +272,7 @@ async def cb_handler(client: lucifermoringstar_robot, query):
                  ]]
             else:
                 buttons = [[
-                 InlineKeyboardButton("🔗 Movies Club", url=f"https://t.me/NewMoviesClub2022")
+                 InlineKeyboardButton("🔗 Movie Club", url=f"https://t.me/+ZLfYBUbS-adiY2E1")
                  ],[
                  InlineKeyboardButton("ℹ️ Help", callback_data="bot_owner"),
                  InlineKeyboardButton("😎 About", callback_data="about") 
